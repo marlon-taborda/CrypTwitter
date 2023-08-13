@@ -24,6 +24,7 @@ contract CrypTwitter{
     mapping(address => string) public userProfileImageURLs;
 
     constructor(){
+        //TODO allow contract admin to change PAGE_SIZE
         address admin = msg.sender;
     }
 
